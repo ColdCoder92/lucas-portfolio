@@ -1,0 +1,47 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: pink;
+    align-content: center;
+}
+img {
+    max-height: 100px;
+}
+p {
+    text-indent: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#icecream-link{
+    text-decoration-line: none;
+    color: black;
+    font-family: cursive;
+}
+#icecream {
+    width: 2em;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+nav, section {
+    margin: 2em 2em;
+}
+section {
+    border: solid rgb(155, 119, 75);
+    background-color: rgb(205, 162, 111);
+}
+table {
+    width: 100%;
+    background-color: rgb(205, 162, 111);
+}
+td {
+    border: solid rgb(155, 119, 75);
+    text-align: center;
+}
+footer {
+    max-width: 100%;
+}
+.logo {
+    width: 2em;
+    margin: 1em 0.5em;
+}
