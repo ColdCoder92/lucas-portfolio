@@ -6,9 +6,16 @@ body {
     align-content: center;
 }
 img {
-    max-height: 100px;
+    max-height: 200px;
+    max-width: 20%;
+}
+#selfie {
+    border-radius: 1em;
+    
+    max-width: 25%
 }
 p {
+    letter-spacing: -1px;
     text-indent: 1em;
     margin-left: 1em;
     margin-right: 1em;
@@ -25,6 +32,7 @@ p {
 }
 nav, section {
     margin: 2em 2em;
+    border-radius: 1em;
 }
 section {
     border: solid rgb(155, 119, 75);
@@ -36,6 +44,7 @@ table {
 }
 td {
     border: solid rgb(155, 119, 75);
+    border-radius: 1em;
     text-align: center;
 }
 footer {
