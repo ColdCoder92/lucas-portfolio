@@ -1,25 +1,29 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
-    background-color: pink;
+    background-image: linear-gradient(90deg, turquoise, pink);
     align-content: center;
 }
+
 img {
     max-height: 200px;
     max-width: 20%;
 }
-#selfie {
+
+.representation {
+    max-width: 25%;
     border-radius: 1em;
-    
-    max-width: 25%
 }
+
 p {
     letter-spacing: -1px;
     text-indent: 1em;
     margin-left: 1em;
     margin-right: 1em;
 }
+
 #icecream-link{
     text-decoration-line: none;
     color: black;
@@ -30,6 +34,7 @@ p {
     margin-left: 2em;
     margin-top: 1em;
 }
+
 nav, section {
     margin: 2em 2em;
     border-radius: 1em;
@@ -38,19 +43,37 @@ section {
     border: solid rgb(155, 119, 75);
     background-color: rgb(205, 162, 111);
 }
+
 table {
     width: 100%;
     background-color: rgb(205, 162, 111);
+    border-radius: 1em;
 }
 td {
     border: solid rgb(155, 119, 75);
-    border-radius: 1em;
+    border-top: 0;
+    border-bottom: 0;
     text-align: center;
 }
+tr :first-child {
+    border-left: 0;
+}
+tr :last-child{
+    border-right: 0;
+}
+iframe {
+    max-width: 100%;
+}
+
 footer {
     max-width: 100%;
 }
 .logo {
     width: 2em;
     margin: 1em 0.5em;
+}
+
+.web-item {
+    border: solid;
+    border-radius: 1em;
 }
