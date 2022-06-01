@@ -76,11 +76,14 @@ footer {
     margin: 1em 0.5em;
 }
 
-.web-item {
-    border: solid;
-    border-radius: 1em;
+.org {
+    width: 20em;
+    margin: 1em;
 }
-
+.dropdown button {
+    width: 50%;
+    margin-bottom: 7.5em;
+}
 @media screen and(max-width: 375px) {
     iframe {
         width: 10em;
