@@ -28,30 +28,38 @@
             <h2 align="center">My Skills</h2>
             <div class="container">
                 <div class="row">
-                    <div class="col-auto">
-                        <ul>
-                            <li class="web-item">Web</li>
-                            <ul>
-                                <li class="web-item-1">HTML</li>
-                                <li class="web-item-2">CSS</li>
-                                <li class="web-item-3">JavaScript</li>
-                                <li class="web-item-4">Bootstrap</li>
+                    <div class="col">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" id="dropList" data-bs-toggle="dropdown" type="button" aria-expanded="true">
+                                Web
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropList">
+                                <li class="dropdown-item">HTML</li>
+                                <li class="dropdown-item">CSS</li>
+                                <li class="dropdown-item">JavaScript</li>
+                                <li class="dropdown-item">Bootstrap</li>
                             </ul>
-                        </ul>
+                        </div>
                     </div>
                     <div class="col">
-                        <ul>
-                            <li>Java</li>
-                            <ul>
-                                <li>JavaFX</li>
-                                <li>JUnit Test</li>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" id="dropList2" data-bs-toggle="dropdown" aria-expanded="true" type="button">
+                                Java
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropList2">
+                                <li class="dropdown-item">JavaFX</li>
+                                <li class="dropdown-item">JUnit Test</li>
                             </ul>
-                        </ul>
                     </div>
-                </div>
-            </div>
+                </div> <!--Row-->
+            </div> <!--Container-->
             <br/>
             <h2 align="center">Companies Worked For</h2>
+            <div class="container">
+                <div class="row">
+                    <img src="Images/org1.png" class="org" alt="The StartUp Life, LLC.">
+                </div>
+            </div>
         </section>
         <footer style="background-color: var(--bs-gray-600)">
             <div class="container">
@@ -62,8 +70,8 @@
                             <li><a href="contact-me.html">Contact Me</a></li>
                         </ul>        
                     </div>
-                    <div class="col">
-                        <p>© 2022 Lucas Rodriguez. All Rights Reserved</p>
+                    <div class="col-6">
+                        <p align="center">© 2022 Lucas Rodriguez.</p>
                     </div>
                     <div class="col">
                         <a href="https://twitter.com/LucasForDessert" target="_blank">
@@ -82,5 +90,6 @@
                 </div>
             </div>
         </footer>
+        <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.bundle.min.js"></script>
     </body>
 </html>
