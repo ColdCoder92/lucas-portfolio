@@ -62,7 +62,10 @@ tr :last-child{
     border-right: 0;
 }
 iframe {
+    border-radius: 1em;
     max-width: 100%;
+    height: 25em;
+    width: 25em;
 }
 
 footer {
@@ -76,4 +79,11 @@ footer {
 .web-item {
     border: solid;
     border-radius: 1em;
+}
+
+@media screen and(max-width: 375px) {
+    iframe {
+        width: 10em;
+        height: 10em;    
+    }
 }
