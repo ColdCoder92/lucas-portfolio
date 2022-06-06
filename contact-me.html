@@ -57,20 +57,27 @@
             </table>
         </nav>
         <section>
-            <h1 align="center">Contact Me (Form Currently in Development)</h1>
+            <h1 align="center" oninput="file.value=files.value">Contact Me</h1>
             <form>
                 <label class="form-label" for="name">Name</label>
-                <input class="form-control" type="name" placeholder="John/Jane Doe" id="name" aria-required>
+                <input class="form-control" type="name" placeholder="John/Jane Doe" id="name" name="name" required>
                 <label class="form-label" for="email">Email</label>
-                <input class="form-control" type="email" id="email" placeholder="johndoe123@mail.com" aria-required>
+                <input class="form-control" type="email" id="email" name="email" placeholder="johndoe123@mail.com" required>
                 <label class="form-label" for="org">Organization</label>
-                <input class="form-control" type="name" placeholder="Example Inc." id="org">
+                <input class="form-control" type="name" placeholder="Example Inc." id="org" name="org">
+                <label class="form-label" for="subject">Subject</label>
+                <input class="form-control" type="text" placeholder="Sample Subject" id="subject" name="subject">
                 <label class="form-label" for="message">Message</label>
-                <textarea class="form-control" placeholder="*Insert Message Here*" id="message" aria-required></textarea>
+                <textarea class="form-control" placeholder="*Insert Message Here*" id="message" name="message" required></textarea>
                 <label class="form-label" for="files">Upload Files</label>
-                <input class="form-control" id="files" type="file">
-                <button id="fileUpload" class="btn btn-secondary">Upload</button>
-                <a id="formSubmit" class="btn btn-primary mx-auto d-block" href="mailto:coldcoder9225@protonmail.com">Submit<a>
+                <input class="form-control" id="files" type="file" name="file">
+                <label class="form-label" for="files2">Upload Files</label>
+                <input class="form-control" id="files2" type="file" name="file2">
+                <label class="form-label" for="files3">Upload Files</label>
+                <input class="form-control" id="files3" type="file" name="file3">
+                <button type="submit" class="btn btn-primary mx-auto d-block" id="formSubmit" formmethod="post" formenctype="multipart/form-data" formaction="https://getform.io/f/91c42436-fb94-4188-8195-a2a3b93a9de0">
+                    Submit
+                </button>
             </form>
         </section>
         <footer style="background-color: var(--bs-gray-600)">
