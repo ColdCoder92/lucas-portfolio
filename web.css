@@ -1,0 +1,173 @@
+@media screen and (max-width: 525px){
+    #web {
+        bottom: 2em;
+        left: 2.5em;
+    }
+    #html {
+        bottom: 0.3em;
+        left: 1em;
+    }
+    #css {
+        bottom: 0.3em;
+        left: 0.4em;
+    }
+    #bootstrap {
+        bottom: 3.15em;
+        left: 1em;
+    }
+}
+@media screen and (min-width: 525px) and (max-width: 600px){
+    #web {
+        bottom: 2.5em;
+        left: 2.5em;
+    }
+    #html {
+        bottom: 0.7em;
+        left: 0.75em;
+    }
+    #css {
+        bottom: 0.7em;
+        left: 0.25em;
+    }
+    #js {
+        right: 0.5em;
+    }
+    #bootstrap {
+        bottom: 3.9em;
+        left: 0.75em;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 750px){
+    #web {
+        bottom: 3em;
+        left: 2em;
+    }
+    #html {
+        bottom: 0.9em;
+        right: 0.25em;
+    }
+    #css {
+        bottom: 0.9em;
+        right: 0.5em;
+    }
+    #js {
+        right: 1.5em;
+    }
+    #bootstrap {
+        bottom: 4.55em;
+        right: 0.5em;
+    }
+} 
+@media screen and (min-width: 750px) and (max-width: 768px){
+    #web {
+        bottom: 2.75em;
+        left: 0.5em;
+    }
+    #html {
+        bottom: 0.5em;
+        right: 2.75em;
+    }
+    #css {
+        bottom: 0.65em;
+        right: 2em;
+    }
+    #js {
+        bottom: 0.1em;
+        right: 3.3em;
+    }
+    #bootstrap {
+        bottom: 4.4em;
+        right: 2.5em;
+    }
+} 
+@media screen and (min-width: 768px) and (max-width: 992px){
+    #web {
+        bottom: 4em;
+        left: 4em;
+    }
+    #html {
+        bottom: 1.2em;
+        left: 1em;
+    }
+    #css {
+        bottom: 1.1em;
+        left: 0.5em;
+    }
+    #js {
+        right: 0.5em;
+    }
+    #bootstrap {
+        bottom: 6em;
+        left: 1em;
+    }
+} 
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    #web {
+        bottom: 5em;
+        left: 7.5em;
+    }
+    #html {
+        bottom: 1.15em;
+        left: 3.75em;
+    }
+    #css {
+        bottom: 1.15em;
+        left: 2.5em;
+    }
+    #js {
+        bottom: 0.1em;
+        right: 0.1em;
+    }
+    #bootstrap {
+        bottom: 7.75em;
+        left: 4em;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    #web {
+        bottom: 7.5em;
+        left: 7.5em;
+    }
+    #html {
+        bottom: 2.75em;
+        left: 3em;
+    }
+    #css {
+        bottom: 2.75em;
+        left: 1.5em;
+    }
+    #js {
+        bottom: 0.75em;
+        right: 0.5em;
+    }
+    #bootstrap {
+        bottom: 10.9em;
+        left: 3.75em;
+    }
+}
+@media screen and (min-width: 1400px) and (max-width: 1550px){
+    #web {
+        bottom: 7.5em;
+        left: 7.5em;
+    }
+    #html {
+        bottom: 2em;
+        left: 2em;
+    }
+    #css {
+        bottom: 2em;
+        left: 0.75em;
+    }
+    #js {
+        bottom: 0.1em;
+        right: 0.5em;
+    }
+    #bootstrap {
+        bottom: 11.8em;
+        left: 2.75em;
+    }
+}
+.web {
+    min-width: 40%;
+    position: relative;
+}
