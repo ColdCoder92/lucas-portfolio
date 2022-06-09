@@ -91,9 +91,4 @@ footer {
     margin-bottom: 7.5em;
     border-radius: 5em;
 }
-@media screen and(max-width: 375px) {
-    iframe {
-        width: 10em;
-        height: 10em;    
-    }
-}
+
