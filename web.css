@@ -1,53 +1,53 @@
 @media screen and (max-width: 525px){
-    #web {
-        bottom: 2em;
+    .web-base {
+        bottom: 1em;
         left: 3em;
     }
 
     @keyframes item1Appear {
         from {
-            bottom: 0.75em; 
+            top: 0.25em; 
             left: 0.25em; 
             opacity: 1;
         }
         to {
-            bottom: -1em; 
+            top: 2em; 
             left: 3em; 
             opacity: 0;
         }
     }
     @keyframes item2Appear {
         from {
-            bottom: 0.75em; 
+            top: 0.25em; 
             left: 0.25em; 
             opacity: 1;
         }
         to {
-            bottom: -1em; 
+            top: 2em; 
             left: -2.5em; 
             opacity: 0;
         }
     }
     @keyframes item3Appear {
         from {
-            bottom: 0.25em; 
+            bottom: -0.75em; 
             right: 0em;
             opacity: 1;
         }
         to {
-            bottom: 2em; 
+            bottom: 1em; 
             right: 2.5em; 
             opacity: 0;
         }
     }
     @keyframes item4Appear {
         from {
-            bottom: 3em; 
+            bottom: 2em; 
             left: 0.5em; 
             opacity: 1;
         }
         to {
-            bottom: 5em; 
+            bottom: 4em; 
             left: 3em; 
             opacity: 0;
         }
@@ -55,55 +55,55 @@
 }
 
 @media screen and (min-width: 525px) and (max-width: 599.9px){
-    #web {
-        bottom: 2.25em;
+    .web-base {
+        bottom: 1.25em;
         left: 3.5em;
     }
     
     @keyframes item1Appear {
         from {
-            bottom: 0.75em; 
+            top: 0.25em; 
             left: 0.25em; 
             opacity: 1;
         }
         to {
-            bottom: -1.25em; 
+            top: 2.25em; 
             left: 3.5em; 
             opacity: 0;
         }
     }
     @keyframes item2Appear {
         from {
-            bottom: 0.75em; 
+            top: 0.25em; 
             left: 0.25em; 
             opacity: 1;
         }
         to {
-            bottom: -1.25em; 
+            top: 2.25em; 
             left: -2.75em; 
             opacity: 0;
         }
     }
     @keyframes item3Appear {
         from {
-            bottom: 0.25em; 
+            bottom: -0.75em; 
             right: 0em;
             opacity: 1;
         }
         to {
-            bottom: 2em; 
+            bottom: 1em; 
             right: 2.5em; 
             opacity: 0;
         }
     }
     @keyframes item4Appear {
         from {
-            bottom: 3.5em; 
+            bottom: 2.5em; 
             left: 0.5em; 
             opacity: 1;
         }
         to {
-            bottom: 6em; 
+            bottom: 5em; 
             left: 3.75em; 
             opacity: 0;
         }
@@ -111,55 +111,55 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 750px){
-    #web {
-        bottom: 2.5em;
+    .web-base {
+        bottom: 1.5em;
         left: 3.75em;
     }
     
     @keyframes item1Appear {
         from {
-            bottom: 0.9em; 
+            top: 0.1em; 
             left: 0.25em; 
             opacity: 1;
         }
         to {
-            bottom: -1.25em; 
+            top: 2.25em; 
             left: 4em; 
             opacity: 0;
         }
     }
     @keyframes item2Appear {
         from {
-            bottom: 0.9em; 
+            top: 0.1em; 
             left: 0.25em; 
             opacity: 1;
         }
         to {
-            bottom: -1.25em; 
+            top: 2.25em; 
             left: -4em; 
             opacity: 0;
         }
     }
     @keyframes item3Appear {
         from {
-            bottom: 0.25em; 
+            bottom: -0.75em; 
             right: 0em;
             opacity: 1;
         }
         to {
-            bottom: 2.25em; 
+            bottom: 1.25em; 
             right: 2.75em; 
             opacity: 0;
         }
     }
     @keyframes item4Appear {
         from {
-            bottom: 3.9em; 
+            bottom: 2.9em; 
             left: 0.5em; 
             opacity: 1;
         }
         to {
-            bottom: 7em; 
+            bottom: 6em; 
             left: 4.5em; 
             opacity: 0;
         }
@@ -167,55 +167,55 @@
 } 
 
 @media screen and (min-width: 750px) and (max-width: 768px){
-    #web {
-        bottom: 2.75em;
+    .web-base {
+        bottom: 1.75em;
         left: 2.5em;
     }
 
     @keyframes item1Appear {
         from {
-            bottom: 0.75em; 
+            top: 0.25em; 
             right: 1.5em; 
             opacity: 1;
         }
         to {
-            bottom: -1.25em; 
+            top: 2.25em; 
             right: -3.25em; 
             opacity: 0;
         }
     }
     @keyframes item2Appear {
         from {
-            bottom: 0.75em; 
+            top: 0.25em; 
             right: 0.75em; 
             opacity: 1;
         }
         to {
-            bottom: -1.25em; 
+            top: 2.25em; 
             right: 4.5em; 
             opacity: 0;
         }
     }
     @keyframes item3Appear {
         from {
-            bottom: 0.75em; 
+            bottom: -0.25em; 
             right: 1em;
             opacity: 1;
         }
         to {
-            bottom: 2.75em; 
+            bottom: 1.75em; 
             right: 3.5em; 
             opacity: 0;
         }
     }
     @keyframes item4Appear {
         from {
-            bottom: 4.4em; 
+            bottom: 3.4em; 
             right: 1.25em; 
             opacity: 1;
         }
         to {
-            bottom: 7em; 
+            bottom: 6em; 
             right: -2.75em; 
             opacity: 0;
         }
@@ -223,55 +223,55 @@
 } 
 
 @media screen and (min-width: 768px) and (max-width: 992px){
-    #web {
-        bottom: 2.65em;
+    .web-base {
+        bottom: 1.65em;
         left: 5.5em;
     }
 
     @keyframes item1Appear {
         from {
-            bottom: 0.6em; 
+            top: 0.4em; 
             left: 1em; 
             opacity: 1;
         }
         to {
-            bottom: -2.75em; 
+            top: 3.75em; 
             left: 5.25em; 
             opacity: 0;
         }
     }
     @keyframes item2Appear {
         from {
-            bottom: 0.5em; 
+            top: 0.5em; 
             left: 0.8em; 
             opacity: 1;
         }
         to {
-            bottom: -2.75em; 
+            top: 3.75em; 
             left: -3.5em; 
             opacity: 0;
         }
     }
     @keyframes item3Appear {
         from {
-            top: 0.25em; 
+            top: 1.25em; 
             left: 0.5em;
             opacity: 1;
         }
         to {
-            top: -2.5em; 
+            top: -1.5em; 
             left: -3.5em; 
             opacity: 0;
         }
     }
     @keyframes item4Appear {
         from {
-            bottom: 4.25em; 
+            bottom: 3.25em; 
             left: 1.35em; 
             opacity: 1;
         }
         to {
-            bottom: 8em; 
+            bottom: 7em; 
             left: 5.5em; 
             opacity: 0;
         }
@@ -279,55 +279,55 @@
 } 
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
-    #web {
-        bottom: 4.5em;
+    .web-base {
+        bottom: 3.5em;
         left: 9em;
     }
 
     @keyframes item1Appear {
         from {
-            bottom: 1.5em; 
+            bottom: 0.5em; 
             left: 2.25em; 
             opacity: 1;
         }
         to {
-            bottom: -2.75em; 
+            bottom: -3.75em; 
             left: 9em; 
             opacity: 0;
         }
     }
     @keyframes item2Appear {
         from {
-            bottom: 1.5em; 
+            bottom: 0.5em; 
             left: 3em; 
             opacity: 1;
         }
         to {
-            bottom: -2.75em; 
+            bottom: -3.75em; 
             left: -3em; 
             opacity: 0;
         }
     }
     @keyframes item3Appear {
         from {
-            bottom: 0.5em; 
+            bottom: -0.5em; 
             left: 2.5em;
             opacity: 1;
         }
         to {
-            bottom: 5em; 
+            bottom: 4em; 
             left: -2.5em; 
             opacity: 0;
         }
     }
     @keyframes item4Appear {
         from {
-            bottom: 7em; 
+            bottom: 6em; 
             left: 3em; 
             opacity: 1;
         }
         to {
-            bottom: 12em; 
+            bottom: 11em; 
             left: 9em; 
             opacity: 0;
         }
@@ -335,55 +335,55 @@
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px){
-    #web {
-        bottom: 5em;
+    .web-base {
+        bottom: 4em;
         left: 11em;
     }
 
     @keyframes item1Appear {
         from {
-            bottom: 1em; 
+            top: 0em; 
             left: 2.25em; 
             opacity: 1;
         }
         to {
-            bottom: -4em; 
+            top: 5em; 
             left: 11em; 
             opacity: 0;
         }
     }
     @keyframes item2Appear {
         from {
-            bottom: 1em; 
+            top: 0em; 
             left: 4.25em; 
             opacity: 1;
         }
         to {
-            bottom: -4em; 
+            top: 5em; 
             left: -4.5em; 
             opacity: 0;
         }
     }
     @keyframes item3Appear {
         from {
-            bottom: 0.4em; 
+            bottom: -0.6em; 
             left: 3.5em;
             opacity: 1;
         }
         to {
-            bottom: 5em; 
+            bottom: 4em; 
             left: -3em; 
             opacity: 0;
         }
     }
     @keyframes item4Appear {
         from {
-            bottom: 8em; 
+            bottom: 7em; 
             left: 3.5em; 
             opacity: 1;
         }
         to {
-            bottom: 14em; 
+            bottom: 13em; 
             left: 11em; 
             opacity: 0;
         }
@@ -391,55 +391,55 @@
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1550px){
-    #web {
-        bottom: 6.75em;
+    .web-base {
+        bottom: 5.75em;
         left: 12.5em;
     }
 
     @keyframes item1Appear {
         from {
-            bottom: 1.5em; 
+            bottom: 0.5em; 
             left: 2em; 
             opacity: 1;
         }
         to {
-            bottom: -3em; 
+            bottom: -4em; 
             left: 13em; 
             opacity: 0;
         }
     }
     @keyframes item2Appear {
         from {
-            bottom: 1.5em; 
+            bottom: 0.5em; 
             left: 5em; 
             opacity: 1;
         }
         to {
-            bottom: -3em; 
+            bottom: -4em; 
             left: -5em; 
             opacity: 0;
         }
     }
     @keyframes item3Appear {
         from {
-            bottom: 1.75em; 
+            bottom: 0.75em; 
             left: 4.25em;
             opacity: 1;
         }
         to {
-            bottom: 7em; 
+            bottom: 6em; 
             left: -3em; 
             opacity: 0;
         }
     }
     @keyframes item4Appear {
         from {
-            bottom: 10.5em; 
+            bottom: 9.5em; 
             left: 3.5em; 
             opacity: 1;
         }
         to {
-            bottom: 18em; 
+            bottom: 17em; 
             left: 14em; 
             opacity: 0;
         }
@@ -452,22 +452,22 @@
 .web:hover {
     opacity: 0.5;
 }
-#web {
+.web-base {
     z-index: 1;
 }
-#html {
-    animation: item1Appear alternate ease-in-out 1s infinite;
+.web-item-1 {
+    animation: item1Appear alternate-reverse ease-in-out 1s infinite;
     animation-play-state: paused;
 }
-#css {
-    animation: item2Appear alternate ease-in-out 1s infinite;
+.web-item-2 {
+    animation: item2Appear alternate-reverse ease-in-out 1s infinite;
     animation-play-state: paused;
 }
-#js {
-    animation: item3Appear alternate ease-in-out 1s infinite;
+.web-item-3 {
+    animation: item3Appear alternate-reverse ease-in-out 1s infinite;
     animation-play-state: paused;
 }
-#bootstrap {
-    animation: item4Appear alternate ease-in-out 1s infinite;
+.web-item-4 {
+    animation: item4Appear alternate-reverse ease-in-out 1s infinite;
     animation-play-state: paused;
 }

@@ -1,11 +1,11 @@
 animate();
 
 function animate(){
-    let web = document.getElementById("web");
-    let html = document.getElementById("html");
-    let css = document.getElementById("css");
-    let js = document.getElementById("js");
-    let bootstrap = document.getElementById("bootstrap");
+    let webBases = document.getElementsByClassName("web-base");
+    let webItems1 = document.getElementsByClassName("web-item-1");
+    let webItems2 = document.getElementsByClassName("web-item-2");
+    let webItems3 = document.getElementsByClassName("web-item-3");
+    let webItems4 = document.getElementsByClassName("web-item-4");
 
     const animateFuncs = [animate1(), animate2(), animate3(), animate4()];
     for (let i = 1; i <= 4; i++){
@@ -13,46 +13,60 @@ function animate(){
     }
 
     function animate1() {
-        web.addEventListener("click", function() {
-            if (html.style.animationPlayState == "paused") {
-                html.style.animationPlayState = "running";
-            }  
-            else {
-                html.style.animationPlayState = "paused";
-            }
-        });
+        for (let e = 0; e < webBases.length; e++){
+            webBases[e].addEventListener("click", function() {
+                if (webItems1[e].style.animationPlayState == "paused") {
+                    webItems1[e].style.animationPlayState = "running";
+                }  
+                else {
+                    webItems1[e].style.animationPlayState = "paused";
+                }
+            });    
+        }
     }
 
     function animate2() {
-        web.addEventListener("click", function() {
-            if (css.style.animationPlayState == "paused") {
-                css.style.animationPlayState = "running";
-            }  
-            else {
-                css.style.animationPlayState = "paused";
-            }
-        });
+        for (let e = 0; e < webBases.length; e++){
+            webBases[e].addEventListener("click", function() {
+                if (webItems2[e].style.animationPlayState == "paused") {
+                    webItems2[e].style.animationPlayState = "running";
+                }  
+                else {
+                    webItems2[e].style.animationPlayState = "paused";
+                }
+            });    
+        }
     }
-
+    // Java Web does not have a third node at this time
     function animate3() {
-        web.addEventListener("click", function() {
-            if (js.style.animationPlayState == "paused") {
-                js.style.animationPlayState = "running";
-            }  
-            else {
-                js.style.animationPlayState = "paused";
+        for (let e = 0; e < webBases.length; e++){
+            if (e == 1){
+                continue;
             }
-        });
+            webBases[e].addEventListener("click", function() {
+                if (webItems3[e].style.animationPlayState == "paused") {
+                    webItems3[e].style.animationPlayState = "running";
+                }  
+                else {
+                    webItems3[e].style.animationPlayState = "paused";
+                }
+            });    
+        }
     }
-
+    // Java Web does not have a fourth node at this time
     function animate4() {
-        web.addEventListener("click", function() {
-            if (bootstrap.style.animationPlayState == "paused") {
-                bootstrap.style.animationPlayState = "running";
-            }  
-            else {
-                bootstrap.style.animationPlayState = "paused";
-            } 
-        });
+        for (let e = 0; e < webBases.length; e++){
+            if (e == 1){
+                continue;
+            }
+            webBases[e].addEventListener("click", function() {
+                if (webItems4[e].style.animationPlayState == "paused") {
+                    webItems4[e].style.animationPlayState = "running";
+                }  
+                else {
+                    webItems4[e].style.animationPlayState = "paused";
+                } 
+            });    
+        }
     }
 }
