@@ -1,9 +1,43 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
     <head>
         <title>Portfolio</title>
+        <link rel="icon" type="image/ico" href="Images\iceCreamLogo.png">
         <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <!--Bootstrap CSS File Links--> 
         <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap.min.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap.rtl.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap.rtl.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap.rtl.min.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap.rtl.min.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-grid.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-grid.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-grid.min.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-grid.min.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-grid.rtl.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-grid.rtl.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap.rtl.min.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap.rtl.min.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-reboot.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-reboot.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-reboot.min.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-reboot.rtl.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-reboot.rtl.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-reboot.rtl.min.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-reboot.rtl.min.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-utilities.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-utilities.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-utilities.min.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-utilities.min.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-utilities.rtl.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-utilities.rtl.css.map">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-utilities.rtl.min.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-utilities.rtl.min.css.map">
+
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -23,25 +57,27 @@
             </table>
         </nav>
         <section>
-            <h1 align="center">Contact Me (Form Currently in Development)</h1>
+            <h1 align="center" oninput="file.value=files.value">Contact Me</h1>
             <form>
                 <label class="form-label" for="name">Name</label>
-                <input class="form-control" type="name" placeholder="John/Jane Doe" id="name" aria-required>
-                <br/><br/>
+                <input class="form-control" type="name" placeholder="John/Jane Doe" id="name" name="name" required>
                 <label class="form-label" for="email">Email</label>
-                <input class="form-control" type="email" id="email" placeholder="johndoe123@mail.com" aria-required>
-                <br/><br>
+                <input class="form-control" type="email" id="email" name="email" placeholder="johndoe123@mail.com" required>
                 <label class="form-label" for="org">Organization</label>
-                <input class="form-control" type="name" placeholder="Example Inc." id="org">
-                <br/><br/>
+                <input class="form-control" type="name" placeholder="Example Inc." id="org" name="org">
+                <label class="form-label" for="subject">Subject</label>
+                <input class="form-control" type="text" placeholder="Sample Subject" id="subject" name="subject">
                 <label class="form-label" for="message">Message</label>
-                <textarea class="form-control" placeholder="*Insert Message Here*" id="message" aria-required></textarea>
-                <br/><br/>
+                <textarea class="form-control" placeholder="*Insert Message Here*" id="message" name="message" required></textarea>
                 <label class="form-label" for="files">Upload Files</label>
-                <input class="form-control" id="files" type="file">
-                <button class="btn btn-secondary">Upload</button>
-                <br/><br/>
-                <a class="btn btn-primary" href="mailto:lucasrodriguez0831@gmail.com">Submit<a>
+                <input class="form-control" id="files" type="file" name="file">
+                <label class="form-label" for="files2">Upload Files</label>
+                <input class="form-control" id="files2" type="file" name="file2">
+                <label class="form-label" for="files3">Upload Files</label>
+                <input class="form-control" id="files3" type="file" name="file3">
+                <button type="submit" class="btn btn-primary mx-auto d-block" id="formSubmit" formmethod="post" formenctype="multipart/form-data" formaction="https://getform.io/f/91c42436-fb94-4188-8195-a2a3b93a9de0">
+                    Submit
+                </button>
             </form>
         </section>
         <footer style="background-color: var(--bs-gray-600)">
@@ -73,5 +109,18 @@
                 </div>
             </div>
         </footer>
+        <!--Bootstrap JavaScript File Links-->
+        <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.js"></script>
+        <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.js.map"></script>
+        <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.min.js"></script>
+        <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.min.js.map"></script>
+        <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.bundle.js"></script>
+        <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.bundle.js.map"></script>
+        <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.bundle.min.js"></script>
+        <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.bundle.min.js.map"></script>
+        <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.esm.js"></script>
+        <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.esm.js.map"></script>
+        <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.esm.min.js"></script>
+        <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.esm.min.js.map"></script>
     </body>
 </html>
