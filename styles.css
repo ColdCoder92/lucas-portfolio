@@ -53,6 +53,20 @@ nav, section {
     margin: 2em 2em;
     border-radius: 1em;
 }
+a.home, a.contact-me {
+    border-radius: 3em;
+}
+a.home {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+a.about-me, a.projects, a.skills-experience {
+    border-radius: 0;
+}
+a.contact-me {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
 section, footer {
     border: solid rgb(155, 119, 75);
     background-color: rgb(205, 162, 111);
