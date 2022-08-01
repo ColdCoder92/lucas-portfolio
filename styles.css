@@ -80,6 +80,7 @@ footer a {
 }
 footer a:hover {
     color: grey !important;
+    cursor: pointer;
 }
 
 label {
