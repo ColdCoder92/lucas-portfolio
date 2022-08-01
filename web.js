@@ -40,7 +40,7 @@ $(function() {
                             $(".web-item-" + node).eq(e).css("animation-play-state", "running");
                             setTimeout(function() {
                                 $(".web-item-" + node).eq(e).css("animation-play-state", "paused");
-                            }, 1000);    
+                            }, 2000);    
                         }    
                     }
                 });    
