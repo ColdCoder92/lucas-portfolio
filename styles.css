@@ -75,6 +75,12 @@ footer {
     border-left: none;
     border-right: none;
 }
+footer a {
+    color: black !important; 
+}
+footer a:hover {
+    color: grey !important;
+}
 
 label {
     padding-top: 3em;
