@@ -15,14 +15,27 @@ img {
 
 
 h3 {
-    margin-left: 1em;
+    margin: 0em 1em;
 }
 
 p {
     letter-spacing: -1px;
     text-indent: 1em;
-    margin-left: 1em;
     margin-right: 3em;
+}
+p, section li {
+    margin-left: 1em;
+}
+a {
+    text-decoration-line: none;
+}
+@media screen and (max-width: 426px) {
+    p {
+        font-size: 16px;
+    }
+    table {
+        font-size: 75%;
+    }
 }
 
 #icecream-link{
@@ -40,9 +53,34 @@ nav, section {
     margin: 2em 2em;
     border-radius: 1em;
 }
-section {
+a.home, a.contact-me {
+    border-radius: 3em;
+}
+a.home {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+a.about-me, a.projects, a.skills-experience {
+    border-radius: 0;
+}
+a.contact-me {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+section, footer {
     border: solid rgb(155, 119, 75);
     background-color: rgb(205, 162, 111);
+}
+footer {
+    border-left: none;
+    border-right: none;
+}
+footer a {
+    color: black !important; 
+}
+footer a:hover {
+    color: grey !important;
+    cursor: pointer;
 }
 
 label {
@@ -76,7 +114,8 @@ footer {
     max-width: 100%;
 }
 .logo {
-    width: 2em;
+    min-width: 2em;
+    width: 3em;
     margin: 1em 0.5em;
 }
 

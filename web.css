@@ -40,15 +40,27 @@
             opacity: 0;
         }
     }
-    @keyframes item4Appear {
+    @keyframes item3-1Appear {
         from {
-            bottom: 2em;
-            left: 0.6em;
+            bottom: 2.55em;
+            left: 4.55em;
             opacity: 1;
         }
         to {
-            bottom: 4em;
-            left: 2em;
+            bottom: 2em;
+            left: 4em;
+            opacity: 0;
+        }
+    }
+    @keyframes item4Appear {
+        from {
+            bottom: 2em;
+            left: -2.2em;
+            opacity: 1;
+        }
+        to {
+            bottom: 3em;
+            left: -1em;
             opacity: 0;
         }
     }
@@ -97,15 +109,27 @@
             opacity: 0;
         }
     }
+    @keyframes item3-1Appear {
+        from {
+            bottom: 3.3em;
+            left: 5.35em;
+            opacity: 1;
+        }
+        to {
+            bottom: 2.5em;
+            left: 4.55em;
+            opacity: 0;
+        }
+    }
     @keyframes item4Appear {
         from {
             bottom: 2.5em;
-            left: 0.25em;
+            right: 3.25em;
             opacity: 1;
         }
         to {
             bottom: 4em;
-            left: 2em;
+            right: 2em;
             opacity: 0;
         }
     }
@@ -153,15 +177,27 @@
             opacity: 0;
         }
     }
+    @keyframes item3-1Appear {
+        from {
+            bottom: 3.75em;
+            left: 6.75em;
+            opacity: 1;
+        }
+        to {
+            bottom: 3em;
+            left: 6em;
+            opacity: 0;
+        }
+    }
     @keyframes item4Appear {
         from {
             bottom: 2.75em;
-            left: 0.5em;
+            right: 3.7em;
             opacity: 1;
         }
         to {
             bottom: 4.5em;
-            left: 2.75em;
+            right: 2em;
             opacity: 0;
         }
     }
@@ -209,15 +245,27 @@
             opacity: 0;
         }
     }
+    @keyframes item3-1Appear {
+        from {
+            bottom: 3em;
+            left: 7.5em;
+            opacity: 1;
+        }
+        to {
+            bottom: 2em;
+            left: 6.5em;
+            opacity: 0;
+        }
+    }
     @keyframes item4Appear {
         from {
             bottom: 2em; 
-            left: 0.5em; 
+            right: 4.25em; 
             opacity: 1;
         }
         to {
             bottom: 4em; 
-            left: 3em; 
+            right: 2.5em; 
             opacity: 0;
         }
     }
@@ -265,15 +313,27 @@
             opacity: 0;
         }
     }
+    @keyframes item3-1Appear {
+        from {
+            bottom: 3.75em;
+            left: 9em;
+            opacity: 1;
+        }
+        to {
+            bottom: 2.75em;
+            left: 8em;
+            opacity: 0;
+        }
+    }
     @keyframes item4Appear {
         from {
             bottom: 2.5em; 
-            left: 0.5em; 
+            right: 5.25em; 
             opacity: 1;
         }
         to {
             bottom: 5em; 
-            left: 3.75em; 
+            right: 3em; 
             opacity: 0;
         }
     }
@@ -321,15 +381,27 @@
             opacity: 0;
         }
     }
-    @keyframes item4Appear {
+    @keyframes item3-1Appear {
         from {
-            bottom: 2.9em; 
-            left: 0.5em; 
+            bottom: 4.25em;
+            left: 10em;
             opacity: 1;
         }
         to {
-            bottom: 6em; 
-            left: 4.5em; 
+            bottom: 3em;
+            left: 8.75em;
+            opacity: 0;
+        }
+    }
+    @keyframes item4Appear {
+        from {
+            bottom: 2.9em; 
+            right: 6em; 
+            opacity: 1;
+        }
+        to {
+            bottom: 5.5em; 
+            right: 3.5em; 
             opacity: 0;
         }
     }
@@ -377,15 +449,27 @@
             opacity: 0;
         }
     }
+    @keyframes item3-1Appear {
+        from {
+            bottom: 4.75em;
+            left: 9em;
+            opacity: 1;
+        }
+        to {
+            bottom: 3.75em;
+            left: 8em;
+            opacity: 0;
+        }
+    }
     @keyframes item4Appear {
         from {
             bottom: 3.4em; 
-            right: 1.25em; 
+            right: 7.5em; 
             opacity: 1;
         }
         to {
             bottom: 6em; 
-            right: -2.75em; 
+            right: 4em; 
             opacity: 0;
         }
     }
@@ -433,15 +517,27 @@
             opacity: 0;
         }
     }
-    @keyframes item4Appear {
+    @keyframes item3-1Appear {
         from {
-            bottom: 3.5em; 
-            left: 1.35em; 
+            bottom: 5.5em;
+            left: 13.75em;
             opacity: 1;
         }
         to {
-            bottom: 7em; 
-            left: 5.5em; 
+            bottom: 4em;
+            left: 12em;
+            opacity: 0;
+        }
+    }
+    @keyframes item4Appear {
+        from {
+            bottom: 3.5em; 
+            left: -7.35em; 
+            opacity: 1;
+        }
+        to {
+            bottom: 7.5em; 
+            left: -4em; 
             opacity: 0;
         }
     }
@@ -489,15 +585,27 @@
             opacity: 0;
         }
     }
-    @keyframes item4Appear {
+    @keyframes item3-1Appear {
         from {
-            bottom: 6.1em; 
-            left: 3em; 
+            bottom: 9em;
+            left: 20.75em;
             opacity: 1;
         }
         to {
-            bottom: 11em; 
-            left: 9em; 
+            bottom: 7.25em;
+            left: 18.75em;
+            opacity: 0;
+        }
+    }
+    @keyframes item4Appear {
+        from {
+            bottom: 6.5em; 
+            left: -8.5em; 
+            opacity: 1;
+        }
+        to {
+            bottom: 12em; 
+            left: -2em; 
             opacity: 0;
         }
     }
@@ -545,15 +653,27 @@
             opacity: 0;
         }
     }
+    @keyframes item3-1Appear {
+        from {
+            bottom: 10.25em;
+            left: 25.5em;
+            opacity: 1;
+        }
+        to {
+            bottom: 7.5em;
+            left: 22em;
+            opacity: 0;
+        }
+    }
     @keyframes item4Appear {
         from {
             bottom: 7em; 
-            left: 3.5em; 
+            right: 10.5em; 
             opacity: 1;
         }
         to {
             bottom: 13em; 
-            left: 11em; 
+            right: 2em; 
             opacity: 0;
         }
     }
@@ -601,15 +721,27 @@
             opacity: 0;
         }
     }
+    @keyframes item3-1Appear {
+        from {
+            bottom: 13.25em;
+            left: 29.5em;
+            opacity: 1;
+        }
+        to {
+            bottom: 10em;
+            left: 25em;
+            opacity: 0;
+        }
+    }
     @keyframes item4Appear {
         from {
-            bottom: 9em; 
-            left: 3.5em; 
+            bottom: 9.5em; 
+            right: 13em; 
             opacity: 1;
         }
         to {
             bottom: 16.5em; 
-            left: 14em; 
+            right: 3em; 
             opacity: 0;
         }
     }
@@ -622,21 +754,26 @@
     opacity: 0.5;
 }
 .web-base {
-    z-index: 1;
+    z-index: 3;
 }
 .web-item-1 {
-    animation: item1Appear alternate-reverse ease-in-out 1s infinite;
+    animation: item1Appear alternate-reverse ease-in-out 2s infinite;
     animation-play-state: paused;
 }
 .web-item-2 {
-    animation: item2Appear alternate-reverse ease-in-out 1s infinite;
+    animation: item2Appear alternate-reverse ease-in-out 2s infinite;
     animation-play-state: paused;
 }
 .web-item-3 {
     animation: item3Appear alternate-reverse ease-in-out 1s infinite;
     animation-play-state: paused;
+    z-index: 2;
+}
+.web-item-3-1 {
+    animation: item3-1Appear alternate-reverse ease-in-out 1s infinite;
+    animation-play-state: paused;
 }
 .web-item-4 {
-    animation: item4Appear alternate-reverse ease-in-out 1s infinite;
+    animation: item4Appear alternate-reverse ease-in-out 2s infinite;
     animation-play-state: paused;
 }
