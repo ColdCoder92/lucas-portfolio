@@ -14,15 +14,19 @@ $(function() {
         });
         $(".about-me").on("click", function() {
             change("about-me");
+            $("title").text("About Me - Portfolio");
         });
         $(".projects").on("click", function() {
             change("projects");
+            $("title").text("Projects - Portfolio");
         });
         $(".skills-experience").on("click", function() {
             change("skills-experience");
+            $("title").text("Skills & Experience - Portfolio")
         });
         $(".contact-me").on("click", function() {
             change("contact-me");
+            $("title").text("Contact Me - Portfolio");
         });
     }
     /* The traversal works by fading the current section to disappear, then
