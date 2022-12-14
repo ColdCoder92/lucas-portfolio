@@ -6,7 +6,7 @@ $(function() {
     }
     traverse();
     /* When clicking on any of the header or footer links, the page will
-       animate to change sections rather than manaully go to different pages. 
+       animate to change sections rather than manually go to different pages. 
     */
     function traverse() {
         $(".home").on("click", function() {
