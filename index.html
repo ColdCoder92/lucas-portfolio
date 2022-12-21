@@ -323,12 +323,12 @@
                 <input class="form-control" type="text" placeholder="Sample Subject" id="subject" name="subject">
                 <label class="form-label" for="message">Message</label>
                 <textarea class="form-control" placeholder="*Insert Message Here*" id="message" name="message" required></textarea>
-                <label class="form-label" for="files">Upload Files</label>
-                <input class="form-control" id="files" type="file" name="file">
-                <label class="form-label" for="files2">Upload Files</label>
-                <input class="form-control" id="files2" type="file" name="file2">
-                <label class="form-label" for="files3">Upload Files</label>
-                <input class="form-control" id="files3" type="file" name="file3">
+                <label class="form-label" for="files0">Upload Files</label>
+                <div class="row file-uploads">
+                    <input class="form-control fileInput" id="files0" type="file" name="files0">
+                    <button class="btn btn-danger remove-files">Remove File</button>
+                </div>
+                <button class="btn btn-dark" id="add-files">Add File</button>
                 <button type="submit" class="btn btn-primary mx-auto d-block" id="formSubmit" formmethod="post" formenctype="multipart/form-beta1-data" formaction="https://getform.io/f/91c42436-fb94-4188-8195-a2a3b93a9de0">
                     Submit
                 </button>
@@ -379,6 +379,7 @@
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <script src="web/web.js"></script>
         <script src="traverse.js"></script>
+        <script src="files.js"></script>
         <!--Bootstrap JavaScript File Links-->
         <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.js"></script>
         <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.js.map"></script>

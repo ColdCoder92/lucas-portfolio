@@ -27,7 +27,7 @@ img {
 
 
 h3 {
-    margin: 0em 1em;
+    margin: 0em 2em;
 }
 
 p {
@@ -97,6 +97,20 @@ footer a:hover {
 
 label {
     padding-top: 3em;
+}
+
+.remove-files {
+    width: 10%;
+    text-align: center;
+}
+
+#add-files {
+    margin-top: 1em;
+}
+
+.fileInput {
+    max-width: 50%;
+    margin-left: 0.75em;
 }
 
 #formSubmit {
