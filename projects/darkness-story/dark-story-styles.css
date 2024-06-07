@@ -1,0 +1,106 @@
+html {
+    background-color: black;
+    align-items: center;
+}
+
+header {
+    text-shadow: 6px -2px 0.2em purple;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+h2 {
+    font-size: 25pt;
+}
+
+body {
+    color: purple;
+    letter-spacing: -1px;
+    margin: 10%;
+}
+
+img#symbol {
+    width: 100%;
+    max-height: 200px;
+    background-size: cover;
+}
+
+p {
+    text-indent: 30pt;
+    font-size: 20pt;
+}
+
+.spooky {
+    animation-name: radiate;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes radiate {
+    0% {
+        color: #800080;
+    }
+
+    /*Purple*/
+    20% {
+        color: #9400D3;
+    }
+
+    /*Dark Purple*/
+    40% {
+        color: #E6E6FA;
+    }
+
+    /*Lavender*/
+    60% {
+        color: #663399;
+    }
+
+    /*Rebecca Purple*/
+    80% {
+        color: #9932CC;
+    }
+
+    /*Dark Orchid*/
+    100% {
+        color: black;
+    }
+}
+
+.example {
+    max-width: 50%;
+    text-align: left;
+    display: flex;
+}
+
+img.example {
+    margin: 5% 0;
+    height: 5%;
+}
+
+footer {
+    display: block;
+    background-color: darkgrey;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+footer li {
+    display: inline-block;
+    padding: 6px;
+    align-items: center;
+}
+
+object {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 480px) {}
