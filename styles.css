@@ -170,10 +170,18 @@ footer {
     margin: 1em 0.5em;
 }
 
-.org {
-    width: 20em;
-    margin: 1em;
+.tool {
+    max-width: 10%;
 }
+
+.desc-list {
+    margin-top: 5rem;
+}
+
+.desc-list-item {
+    margin: 0.5rem 0rem;
+}
+
 
 .dropdown button {
     padding-bottom: 1em;

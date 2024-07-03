@@ -40,11 +40,9 @@
     <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap-utilities.rtl.min.css.map">
 
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="web/web.css">
 
     <script defer src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script defer src="web/web.js"></script>
     <script defer src="traverse.js"></script>
     <script defer src="files.js"></script>
     <!--Bootstrap JavaScript File Links-->
@@ -77,10 +75,7 @@
                     <a class="nav-link about-me btn">About Me</a>
                 </td>
                 <td class="nav-item">
-                    <a class="nav-link projects btn">Projects</a>
-                </td>
-                <td class="nav-item">
-                    <a class="nav-link skills-experience btn">Skills & Experience</a>
+                    <a class="nav-link projects btn">Project Samples</a>
                 </td>
                 <td class="nav-item">
                     <a class="nav-link contact-me btn">Contact Me</a>
@@ -213,161 +208,132 @@
         </p>
     </section> <!--End of About Me Section-->
     <section id="projectsSection">
-        <h1 align="center">Projects</h1>
-        <div class="container">
+        <h1 align="center">Project Samples</h1>
+        <div class="container mt-1">
             <div class="row">
                 <div class="col">
-                    <h2 align="center">Algebra Solver</h2>
-                    <a href="projects/AlgebraSolver.zip">
-                        <img class="representation mx-auto d-block" src="images\equationSolverMenu.png" alt="App Menu">
-                    </a>
-                    <p>
-                        The application, created using JavaFX, would allow the
-                        user to solve any algebra problem just by typing it. As
-                        an aside, an ice-cream character accompanies the app
-                        while you interact with the input. Currently, the app
-                        accepts simple expressions and linear equations with
-                        simplification, integers, decimals, and fractions.
-                        Also, the <i>Dark Mode</i> setting is still in the
-                        works.
-                    </p>
-                    <p>
-                        From the bottom, the development started with planning
-                        on how to solve the most simple equations beginning
-                        with <code>x + 1 = 2</code>. Then, gradually, the
-                        code got more complex after testing with harder
-                        equations and debugging for any strenuous bugs. The
-                        layout of the application was created with
-                        experimenting along with the bottom-up process as
-                        graphics were involved in the process. The result led
-                        to a main menu with the start, settings, and exit
-                        buttons as would many applications.
-                    </p>
-                    <p>
-                        You can access the project by clicking <a href="projects/AlgebraSolver.zip">here</a>
-                        or the image above. <br />
-                        Note: You may have to install java from <a
-                            href="https://www.oracle.com/java/technologies/downloads/">here</a>
-                        and run the batch file (.bat) after extracting the zip file.
-                    </p>
-                </div> <!--End of Column 1-->
+                    <h2 align="center">AlgebraSolver
+                        <img class="tool" src="images/tool-icons/java-logo.png">
+                    </h2>
+                    <img class="representation mx-auto d-block" src="images/equationSolverPreview.png" alt"App Preview">
+                </div> <!--End of Cover Column-->
                 <div class="col">
-                    <h2 align="center">Capture The Flags</h2>
-                    <a href="projects/CaptureTheFlagsDemo.zip">
-                        <img class="representation mx-auto d-block" src="images/flagOnHill.png"
-                            alt="Capture The Flags Cover">
-                    </a>
-                    <p>
-                        The game was inspired by the <i>Capture The Flags</i>
-                        game created during the <i>ShellHacks 2022</i> hackathon.
-                        There, I collaborated with a partner and learned the
-                        Godot engine in order to help create the game. To accommodate
-                        my partner's skill set, I flexibly went through the
-                        Python basics along with the engine's tutorial. This
-                        had sparked my interest in creating games as a part
-                        of applications.
-                    </p>
-                    <p>
-                        After improving myself in the hackathon, I took the
-                        opportunity to continue and ultimately remake the
-                        game on the Unity engine. The engine switch was
-                        essential in order to use the C# language and better
-                        platform support.
-                    </p>
-                    <p>
-                        The initial development process of the Unity game
-                        was entirely based on the <i>Create with Code</i>
-                        course. This meant creating the world floor,
-                        prototype models and movement, game mechanics; GUI,
-                        then audio. After the tutorial, I added extra features
-                        including the difficulty system and fixed any bugs
-                        present during the development. What was considered
-                        for future updates included support for multiplayer.
-                    </p>
-                    <p>
-                        You can access the game by extracting the zip file then
-                        running the exe file
-                        <a href="projects/CaptureTheFlagsDemo.zip">here</a>
-                        or on the image above.<br>
-                        You can also access the Godot game in the hackathon submission
-                        page <a href="https://devpost.com/software/capture-the-flags-game">here</a>.
-                    </p>
-                </div> <!--End of Column 2-->
-            </div> <!--End of Row1 -->
-            <div class="row">
-                <div class="col">
-                    <h2 align="center">The Darkness Story</h2>
-                    <a href="projects/darkness-story/darkness-index.html">
-                        <img class="representation mx-auto d-block" src="images/darknessStoryCover.png"
-                            alt="Darkness Story Cover">
-                    </a>
-                    <p>
-                        The website page, created with basic HTML5 and CSS, serves
-                        to practice HTMl5 and try out the CSS animations mechanic.
-                        Ideally, this page presents a story revolving around and
-                        building upon a topic, which is the dark in this case.
-                        The story includes subtopics including cats as an attempt
-                        to make the story more interesting. Pictures are also
-                        included with credits, but are only currently optimized
-                        for specific resolutions.
-                    </p>
-                    <p>
-                        In a top-down approach, I designed the page by working
-                        through the story including the title, paragraphs of text,
-                        and images that correspond to each paragraph. Throughout
-                        each part of the story, I added styling and performed manual
-                        testing to ensure functionality. Only the webpage logo
-                        was created to serve the short footer.
-                    </p>
-                    <p>
-                        Click <a href="projects/darkness-story/darkness-index.html">here</a>
-                        or on the project cover to access the page demo. Further
-                        development with the page is considered but not planned
-                        for the future.
-                    </p>
-                </div> <!--End of Column -->
-            </div> <!--End of Row 2-->
-        </div> <!--End of Container-->
-    </section> <!--End of Projects Section-->
-    <section id="skills-experienceSection">
-        <h1 align="center">Skills & Experience</h1>
-        <br />
-        <h2 align="center">My Skills</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img id="html" class="web web-item-1" src="web/nodes/htmlBubble.png" alt="html">
-                    <img id="css" class="web web-item-2" src="web/nodes/cssBubble.png" alt="css">
-                    <img id="web" class="web web-base" src="web/nodes/webBase.png" alt="web">
-                    <img id="js" class="web web-item-3" src="web/nodes/jsBubble.png" alt="js">
-                    <img id="jquery" class="web web-item-3-1" src="web/nodes/jQueryBubble.png" alt="jquery">
-                    <img id="bootstrap" class="web web-item-4" src="web/nodes/bootstrapBubble.png" alt="bootstrap">
-                </div> <!--End of Web Skills Column-->
-                <div class="col">
-                    <img class="web web-item-1" src="web/nodes/javafxBubble.png" alt="javafx">
-                    <img class="web web-item-2" src="web/nodes/junitBubble.png" alt="junit">
-                    <img class="web web-base" src="web/nodes/javaBase.png" alt="java">
-                </div> <!--End of Java Skills Column-->
+                    <ul class="desc-list" style="list-style-image:url('images/cookie.png');">
+                        <li class="desc-list-item">
+                            Performed continuous unit testing for proper
+                            functionality
+                        </li>
+                        <li class="desc-list-item">
+                            Implemented additional UI & UX customizations for
+                            greater accessibility
+                        </li>
+                        <li class="desc-list-item">
+                            <a class="btn btn-secondary" href="www.github.com/ColdCoder92/algebra-solver">
+                                Github
+                            </a>
+                        </li>
+                    </ul>
+                </div> <!--End of Text Column-->
             </div> <!--End of Row 1-->
             <div class="row">
-                <div class="col-6 offset-3">
-                    <img class="web web-item-1" src="web/nodes/unityBubble.png" alt="unity">
-                    <img class="web web-item-2" src="" alt="" ;> <!--Dummy Node-->
-                    <img class="web web-base" src="web/nodes/cSharpBase.png" alt="c#">
-                </div> <!--End of C# Skills Column-->
+                <div class="col">
+                    <h2 align="center">Capture The Flags
+                        <img class="tool" src="images/tool-icons/python-logo.png" alt="Python Logo">
+                        <img class="tool" src="images/tool-icons/godot-logo.png" alt="Godot Logo">
+                        <img class="tool" src="images/tool-icons/csharp-logo.png" alt="C# Logo">
+                        <img class="tool" src="images/tool-icons/unity-logo.png" alt="Unity Logo">
+                    </h2>
+                    <img class="representation mx-auto d-block" src="images/flagOnHill.png"
+                        alt="Capture The Flags Cover">
+                </div> <!--End of Cover Column-->
+                <div class="col">
+                    <ul class="desc-list" style="list-style-image:url('images/cookie.png');">
+                        <li class="desc-list-item">
+                            Collaborated in a team during the 2D development,
+                            for smoother planning and presenting
+                        </li>
+                        <li class="desc-list-item">
+                            Implemented additional controller support during the
+                            3D development for greater ease of use
+                        </li>
+                        <li class="desc-list-item">
+                            Integrated game layout customizations as a showcase
+                            to UI/UX for greater accessibility
+                        </li>
+                        <li class="desc-list-item">
+                            <a class="btn btn-secondary" href="www.github.com/ColdCoder92/capture-the-flags">
+                                2D Github
+                            </a>
+                        </li>
+                        <li class="desc-list-item">
+                            <a class="btn btn-secondary" href="www.github.com/ColdCoder92/capture-the-flags-3d">
+                                3D Github
+                            </a>
+                        </li>
+                    </ul>
+                </div> <!--End of Text Column-->
             </div> <!--End of Row 2-->
-        </div> <!--End of Skills Container-->
-        <h2 align="center" style="margin-top: -1.5em;">Companies Worked For</h2>
-        <div class="container">
             <div class="row">
                 <div class="col">
-                    <a href="https://www.thestartuplife.io/">
-                        <img class="org" src="images/org1.png" class="org" alt="The StartUp Life, LLC.">
-                    </a>
-                </div> <!--End of Column-->
+                    <h2 align="center">The Darkness Story
+                        <img class="tool" src="images/tool-icons/html-logo.png" alt="HTML Logo">
+                        <img class="tool" src="images/tool-icons/css-logo.png" alt="CSS Logo">
+                    </h2>
+                    <img class="representation mx-auto d-block" src="images/darknessStoryCover.png"
+                        alt="Darkness Story Cover">
+                </div> <!--End of Cover Column-->
+                <div class="col">
+                    <ul class="desc-list" style="list-style-image:url('images/cookie.png');">
+                        <li class="desc-list-item">
+                            Implemented text animations for added site detail &
+                            increased UX
+                        </li>
+                        <li class="desc-list-item">
+                            Structured the page for a niche userbase
+                        </li>
+                        <li class="desc-list-item">
+                            <a class="btn btn-secondary" href="www.github.com/ColdCoder92/book-of-elements">
+                                Github
+                            </a>
+                        </li>
+                    </ul>
+                </div> <!--End of Text Column-->
+            </div> <!--End of Row 3-->
+        </div> <!--End of Side Projects Container-->
+        <div class="container mt-5">
+            <h1 align="center" class="mb-5">Companies Worked For</h1>
+            <div class="row">
+                <div class="col">
+                    <h2 align="center">The Startup Life, LLC.
+                        <img class="tool" src="images/tool-icons/html-logo.png" alt="HTML Logo">
+                        <img class="tool" src="images/tool-icons/css-logo.png" alt="CSS Logo">
+                        <img class="tool" src="images/tool-icons/javascript-logo.png" alt="JavaScript Logo">
+                    </h2>
+                    <img class="mw-100" src="images/org1.png" alt="The Startup Life, LLC.">
+                </div> <!--End of Cover Column-->
+                <div class="col">
+                    <ul class="desc-list" style="list-style-image:url('images/cookie.png');">
+                        <li class="desc-list-item">
+                            Created visual planning and mockups for effective planning,
+                            leading to increased customer satisfaction
+                        </li>
+                        <li class="desc-list-item">
+                            Improved website UI for optimized overall speed
+                        </li>
+                        <li class="desc-list-item">
+                            Improved website documentation for further understanding
+                            from future developers of the website development
+                        </li>
+                        <li class="desc-list-item">
+                            <a class="btn btn-secondary" href="www.github.com/TheStartupLife/thestartuplife-052020">
+                                Github
+                            </a>
+                        </li>
+                        <ul>
+                </div> <!--End of Text Column-->
             </div> <!--End of Row-->
         </div> <!--End of Companies Container-->
-    </section> <!--End of Skills & Experience Section-->
+    </section> <!--End of Projects Section-->
     <section id="contact-meSection">
         <h1 align="center" oninput="file.value=files.value">Contact Me</h1>
         <form>
@@ -411,10 +377,7 @@
                             <a class="nav-link contact-me">Contact Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link skills-experience">Skills & Experience</a>
+                            <a class="nav-link projects">Project Samples</a>
                         </li>
                     </ul>
                 </div> <!--End of Column 1-->
