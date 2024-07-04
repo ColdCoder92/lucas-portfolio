@@ -1,9 +1,11 @@
 html::-webkit-scrollbar {
     width: 1rem;
 }
+
 html::-webkit-scrollbar-track {
     background-color: pink;
 }
+
 html::-webkit-scrollbar-thumb {
     background-color: rgb(155, 119, 75);
     border-radius: 1rem;
@@ -11,11 +13,6 @@ html::-webkit-scrollbar-thumb {
 
 body {
     background-image: linear-gradient(90deg, turquoise, pink);
-}
-
-img {
-    max-height: 225px;
-    max-width: 20%;
 }
 
 .representation {
@@ -35,61 +32,80 @@ p {
     text-indent: 1em;
     margin-right: 3em;
 }
-p, section li {
+
+p,
+section li {
     margin-left: 1em;
 }
+
 a {
     text-decoration-line: none;
 }
+
 @media screen and (max-width: 426px) {
     p {
         font-size: 16px;
     }
+
     table {
         font-size: 75%;
     }
 }
 
-#icecream-link{
+#icecream-link {
     text-decoration-line: none;
     color: black;
     font-family: cursive;
 }
+
 #icecream {
     width: 2em;
     margin-left: 2em;
     margin-top: 1em;
 }
 
-nav, section {
+nav,
+section {
     margin: 2em 2em;
     border-radius: 1em;
 }
-a.home, a.contact-me {
+
+a.home,
+a.contact-me {
     border-radius: 3em;
 }
+
 a.home {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
-a.about-me, a.projects, a.skills-experience {
+
+a.about-me,
+a.projects,
+a.skills-experience {
     border-radius: 0;
 }
+
 a.contact-me {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-section, footer {
+
+section,
+footer {
     border: solid rgb(155, 119, 75);
     background-color: rgb(205, 162, 111);
 }
+
 footer {
     border-left: none;
     border-right: none;
 }
+
 footer a {
-    color: black !important; 
+    color: black !important;
 }
+
 footer a:hover {
     color: grey !important;
     cursor: pointer;
@@ -123,32 +139,44 @@ table {
     background-color: rgb(205, 162, 111);
     border-radius: 1em;
 }
+
 td {
     border: solid rgb(155, 119, 75);
     border-top: 0;
     border-bottom: 0;
     text-align: center;
 }
+
 tr :first-child {
     border-left: 0;
 }
-tr :last-child{
+
+tr :last-child {
     border-right: 0;
 }
 
 footer {
     max-width: 100%;
 }
+
 .logo {
     min-width: 2em;
     width: 3em;
     margin: 1em 0.5em;
 }
 
-.org {
-    width: 20em;
-    margin: 1em;
+.tool {
+    max-width: 10%;
 }
+
+.desc-list {
+    margin-top: 5rem;
+}
+
+.desc-list-item {
+    margin: 0.5rem 0rem;
+}
+
 
 .dropdown button {
     padding-bottom: 1em;
@@ -156,4 +184,3 @@ footer {
     margin-bottom: 7.5em;
     border-radius: 5em;
 }
-
